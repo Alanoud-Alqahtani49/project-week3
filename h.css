@@ -17,9 +17,7 @@ body{
     gap: 20px;
     margin: 0 auto;
     padding: 10px;
-    width: 100px;
-    height: auto;
-
+    width: auto;
 }
 .container > div{
     background-color: white;
