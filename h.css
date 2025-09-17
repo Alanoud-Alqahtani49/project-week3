@@ -1,0 +1,201 @@
+header{
+    background-color: rgb(36, 160, 160);
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+body{
+    margin: 0;
+    background-color: rgb(160, 223, 223);
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 10px;
+    width: 100px;
+    height: auto;
+
+}
+.container > div{
+    background-color: white;
+    padding: 15px;
+    border: 1px solid rgb(13, 143, 143);
+    text-align: center;
+    font-size: 16px;
+
+}
+.container img{
+    width: 100px;
+    max-width: 100%;
+}
+button{
+    background-color: rgb(191, 251, 101);
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+
+}
+button:hover{
+    background-color: rgb(165, 254, 32);
+    transform: scale(1.05);
+}
+@media (min-width: 1024px) {
+  header {
+    font-size: 26px;
+    padding: 20px;
+  }
+
+  .container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    width: 90%;
+  }
+
+  .container > div {
+    font-size: 18px;
+    padding: 20px;
+  }
+
+  button {
+    width: auto; 
+    padding: 10px 20px;
+  }
+}
+
+
+
+
+
+/*.container h3{ اذا ابي كل كارد له تصميم مختلف
+    color: brown;
+    align-items: center;
+    margin: 10px 0;
+    padding: 10px;
+    text-align: center;
+}*/
+
+
+/*
+.column > div{
+    background-color: #f1f1f1;
+    width: 500px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    color: rgb(0, 141, 94)
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(172, 253, 204);
+    gap: 50px;
+    justify-content: space-evenly;
+    height: 500px;
+
+
+}
+.row > div{
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    color: rgb(0, 149, 60);
+
+}
+    .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 248, 205);
+    font-size: 20px;
+    gap: 30px;
+    color: orange;
+    padding: 15px;
+    border-style:double;
+}
+button{
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(191, 251, 101);
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+
+}
+button:hover{
+    background-color: rgb(165, 254, 32);
+    transform: scale(1.1);
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.row > div{
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color: rgb(176, 254, 254);
+    border-radius: 10px;
+    color: rgb(12, 100, 100);
+}
+.row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+.row2 > div{
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color: rgb(176, 254, 254);
+    border-radius: 10px;
+    color: rgb(12, 100, 100);
+}
+.row3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.row3 > div{
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    background-color: rgb(176, 254, 254);
+    border-radius: 10px;
+    color: rgb(12, 100, 100);
+}
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    background-color: antiquewhite;
+    font-size: 25px;
+    border-style: dotted;
+
+}
+*/
